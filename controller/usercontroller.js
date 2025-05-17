@@ -7,7 +7,7 @@ const { getFirestore, Timestamp, FieldValue, Filter } = require('firebase-admin/
 const asyncHandler = require("express-async-handler");
 const { sendMessageModel } = require('../models/sendMessageModel');
 const { check, validationResult } = require('express-validator');
-const serviceAccount = require('../diabettrackings-firebase-adminsdk-fbsvc-c8f7503970.json');
+const serviceAccount = require('../diabetstracking-firebase-adminsdk-fbsvc-71fdc2a459.json');
 
 const uuid = require('uuid');
 const logger = require("../logger");
